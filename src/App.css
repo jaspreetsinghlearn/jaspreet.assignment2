@@ -1,6 +1,6 @@
 .app {
   text-align: center;
-  padding: 30px;
+  padding: 1.875rem;
   font-family: Arial, sans-serif;
   background-color: #f2f2f2;
   min-height: 100vh;
@@ -11,23 +11,23 @@ h1 {
 }
 
 .input-section {
-  margin: 20px 0;
+  margin: 1.25rem 0;
 }
 
 input[type="text"] {
-  padding: 10px;
-  width: 200px;
+  padding: 0.625rem;
+  width: 12.5rem;
   border: 1px solid #ccc;
-  border-radius: 8px;
-  margin-right: 10px;
+  border-radius: 0.5rem;
+  margin-right: 0.625rem;
 }
 
 button {
-  padding: 10px 16px;
+  padding: 0.625rem 1rem;
   background-color: #4caf50;
   color: white;
   border: none;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   cursor: pointer;
 }
 
@@ -38,20 +38,20 @@ button:hover {
 .todo-list {
   list-style: none;
   padding: 0;
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 .todo-list li {
   text-align: left;
-  margin: 10px auto;
-  width: 300px;
+  margin: 0.625rem auto;
+  width: 18.75rem;
   background-color: white;
-  padding: 10px;
-  border-radius: 8px;
+  padding: 0.625rem;
+  border-radius: 0.5rem;
   border: 1px solid #ddd;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 0.625rem;
 }
 
 .completed {
